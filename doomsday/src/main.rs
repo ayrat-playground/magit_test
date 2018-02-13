@@ -13,5 +13,5 @@ fn main() {
             .summary("Doomsday")
             .body("Hey")
             .show().unwrap();
-    }).schedule("* * * * * *").unwrap();
+    }).schedule("* 1 * 1 * *").unwrap();
 }

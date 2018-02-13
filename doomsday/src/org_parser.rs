@@ -9,7 +9,7 @@ pub enum OrgParseError {
 
 #[derive(Debug, PartialEq)]
 pub struct Todo {
-    date: String, //DateTime<Local>,
+    date: DateTime<Local>,
     text: String
 }
 
